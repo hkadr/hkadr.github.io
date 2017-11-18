@@ -1,13 +1,11 @@
 #!/bin/sh
 ###########################
-#cd /cygdrive/d/Code/opensrc/hkadr/hkadr.github.io
-# switch to branch you want to use
-#git checkout master
-# add all added/modified files
+echo `date '+%Y-%m-%d %H:%M:%S'`
+`echo Start. Push Code...`
+`cd /cygdrive/d/Code/opensrc/hkadr/hkadr.github.io`
+`git init`
+`git pull`
 `git add --all`
-# commit changes
-`git commit -am "made changes"`
-# push to git remote repository
+`git commit -m "auto push"`
 `git push`
-###########################
-echo 
+`echo Complete. Relaunching...`
