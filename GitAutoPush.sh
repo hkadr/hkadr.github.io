@@ -6,8 +6,8 @@
 # add all added/modified files
 `git add --all`
 # commit changes
-git commit -am "made changes"
+`git commit -am "made changes"`
 # push to git remote repository
-git push
+`git push`
 ###########################
 echo 
