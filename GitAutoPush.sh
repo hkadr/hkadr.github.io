@@ -7,4 +7,5 @@ echo `date '+%Y-%m-%d %H:%M:%S'` &&
 `git add --all` &&
 `git commit -m "auto push"` &&
 `git push` &&
-`echo Complete. Relaunching...`
+`echo Complete. Relaunching...` &&
+echo `date '+%Y-%m-%d %H:%M:%S'`
