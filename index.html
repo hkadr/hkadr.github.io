@@ -18,12 +18,18 @@
 		li {
 			list-style: none;
 		}
+		.title-wrap {
+			line-height: 30px;
+			background-color: #ffffff;
+		}
+		.right-box,
+		.left-box {
+			width: 50%; 
+			float: left;
+		}
 		h1 {
 			font-size: 16px; 
-			text-align: center;
-			line-height: 30px;
 			margin-bottom: 1px;
-			background-color: #ffffff;
 		}
 		.adr-items {
 			font-size: 14px;
@@ -56,7 +62,14 @@
 	</style>	
 	</head>
 	<body>
-		<h1>HKADR</h1>
+		<div class="title-wrap clearfix">
+			<div class="left-box">
+				<h1>HKADR</h1>
+			</div>
+			<div class="right-box">
+				<span>更新时间：2017-11-19 11:50:04</span>
+			</div>
+		</div>
 		<ul class="adr-items">
 			
 				<li class="clearfix">
